@@ -2,8 +2,8 @@
 # AIM:
 To convert the G-Code-to-final-G-Code-for-12V-Battery-Charger-Circuit-with-Auto-Cut-Off-On-circuit into CNC final G Code to ensure precise engraving, drilling, and cutting operations during PCB manufacturing using a CNC machine.
 # EQUIPMENT REQUIRED:
-- Hardware: Personal Computer (PC)<br>
-- Software: Auto leveller<br>
+● Hardware: Personal Computer (PC)<br>
+● Software: Auto leveller<br>
 # PROCEDURE:
 ## Auto leveller
 1.Open the Autoleveller software<br>
@@ -20,7 +20,6 @@ To convert the G-Code-to-final-G-Code-for-12V-Battery-Charger-Circuit-with-Auto-
 2.Add few lines in Auto Levelled G-Code.<br>
 3.Save the file.<br>
 4.Follow this same procedure for remaining all G-codes( cut and drill).<br>
-
 # THEORY:
 ## Conversion of G-Code to Auto-Leveller Code
 
@@ -100,6 +99,7 @@ G0 Z5
 M5          (spindle stop)
 G0 X0 Y0    (move to home / safe XY)
 M30         (program end and rewind)
+
 ```
 ## Final G Code
 ```
@@ -202,6 +202,7 @@ M5          (Spindle stop)
 G0 X0 Y0 Z5.000
 M30         (Program end and rewind)
 %
+
 ```
 ### Engraving G Code
 ```
@@ -258,6 +259,7 @@ M5          (Stop spindle)
 G0 X0 Y0 Z5.000
 M30         (End and rewind)
 %
+
 ```
 ### Drill G Code
 ```
@@ -312,6 +314,7 @@ G0 Z5.000
 G0 X0 Y0
 M30          (End and rewind)
 %
+
 ```
 ### Cut G Code
 ```
@@ -358,6 +361,7 @@ G0 Z5.000
 G0 X0 Y0
 M30          (End of program)
 %
+
 ```
 # RESULT:
 Thus, the G code of 12V-Battery-Charger-Circuit-with-Auto-Cut-Off-On-circuitt were successfully converted into final CNC G-Code for accurate and high-quality PCB engraving, drilling, and cutting using the CNC machine.
